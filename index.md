@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Alaska Lite version of Windows 11
 
 You can use the [editor on GitHub](https://github.com/dariusbarbus/alaska-lite/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
