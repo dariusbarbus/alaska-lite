@@ -2235,7 +2235,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 6 Free';
 			font-weight: 400;
 		}
 
@@ -2252,7 +2252,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Font Awesome 6 Brands';
 		}
 
 		.icon.major {
@@ -2280,8 +2280,8 @@ input, select, textarea {
 			border: solid 1px;
 			border-radius: 100%;
 		}
-
-			.icon.alt:before {
+/* SOCIAL MEDIA ICONS */
+			.icon.alt:before { 
 				display: block;
 				font-size: 1.25em;
 				width: 2em;
@@ -2289,7 +2289,7 @@ input, select, textarea {
 				text-align: center;
 				line-height: 2em;
 			}
-
+/* COLOURS FOR ICONS */
 		.icon.style1 {
 			color: #efa8b0;
 		}
@@ -3514,7 +3514,7 @@ input, select, textarea {
 		#main .formerize-placeholder {
 			color: rgba(99, 99, 99, 0.25) !important;
 		}
-
+/* BORDER OF THE ICONS */
 		#main .icon.major {
 			border-color: #dddddd;
 		}
