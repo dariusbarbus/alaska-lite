@@ -49,19 +49,23 @@
 									<li>Create a New Virtual Machine</li>
 									<li>Select disk image file (iso) and browse to the Alaska Lite 11 ISO</li>
 									<li>Make sure that Guest operating system is Microsoft Windows and the version is Windows 10 and later x64</li>
-									<li>Give it any name and the location (default location is recommend)</li>
+									<li>Give it any name and the location (default location is recommended)</li>
 									<li>You can leave this page alone, default disk size of 60 GB is fine</li>
 									<li>Select Customize Hardware</li>
 									<li>In the Memory tab, where it says 2048 MB, change it to 4096 (Change it to a higher value if you know that you are doing)</li>
 									<li>Click Close and then Finish</li>
 								</ol>
-								<p>Now it will apear as a new VM in the menu, now we must procede to enable TPM in the configuration file of the VM</p>
+								<p>
+									Now it will appear as a new VM in the menu, now we must proceed to enable TPM in the configuration file of the VM
+									
+									</p>
 							</section>
 
 							<section id="third" class="main">
 								<span class="image main"><img src="images/pic04.jpg" alt="" /></span>
 								<h2>3. Enable TPM</h2>
-								<p>To enable TPM for the VM we must go the VM location, if you chose the default location then it is located in
+								<p>
+									To enable TPM for the VM we must go to the VM location, if you chose the default location then it is located in									
 									<code>C:\Users\username\Documents\Virtual Machines\nameofvm</code>, from there, we search for the file ending with <code>.vmx</code>.
 									Right click on it and edit in notepad. Go to the last line of the file and add the following <code>managedVM.autoAddVTPM = "software"</code>.
 									Close the file and restart the software.
@@ -71,8 +75,13 @@
 							<section id="consideration" class="main">
 								<span class="image main"><img src="images/pic04.jpg" alt="" /></span>
 								<h1>A few considerations</h1>
-								<p>The first time you run the VM it might say during the install process that is not compatible with this machine, just restart the software
-									and try again, if the problem persist, make sure you followed step 3 correcly and double check.</p>
+								<p>
+									The first time you run the VM it might say during the installation process that is not compatible with this machine, just
+									restart the software
+									and try again, if the problem persist, make sure you followed step 3 correctly and double check.</p>
+									<p>This guide assumes you are using VMware Workstation Player version 16.</p>
+									
+									
 							</section>
 
 					
